@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚗"
+        android:textSize="28sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAR"
+        android:textSize="10sp"
+        android:textColor="#94A3B8"
+        android:letterSpacing="0.3"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/widget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOVA"
+        android:textSize="10sp"
+        android:textColor="#38BDF8"
+        android:letterSpacing="0.3"
+        android:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir modo auto"
+        android:textSize="9sp"
+        android:textColor="#475569"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

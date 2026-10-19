@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# Node / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/.kotlin/
+**/android/.cxx/
+**/android/local.properties
+**/android/captures/
+**/*.keystore
+!**/android/app/debug.keystore
+
+# iOS
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/*.xcworkspace/xcuserdata
+**/*.xcodeproj/xcuserdata
+**/.xcode.env.local
+
+# Build Artifacts
+*.apk
+*.aab
+*.jsbundle
+build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
